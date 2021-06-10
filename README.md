@@ -31,3 +31,5 @@ Another way is to open with QT Creator and build.
 This software is FREE and comes AS IS.
 The author is not responsible for the use of it and for any bugs.
 But author will be grateful for any help to fix the bugs and to make it better! :)
+
+Also here is an Linux executable file compiled with QT 5.15 under Manjaro Linux.
