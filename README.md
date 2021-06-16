@@ -12,6 +12,10 @@ If you see the message "Port is open!" and the button "Get Param" is enabled - j
 If you don't see the message box "Parameters are GOT!" press it again (its a bug!).
 When parameters are got you may change them and write them with "Set Param" button.
 
+Also you may save and load the modem configurations.
+For example: if you read from modem and save to file default config C0 00 00 1A 17 44,
+the config string in the file will look like C000001A1744 - just text without spaces.
+
 # BUILD and INSTALLATION
 
 Classic:
