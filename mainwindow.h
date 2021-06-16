@@ -9,6 +9,8 @@
 #include <QtSerialPort/QSerialPort>
 #include <QString>
 #include <QMessageBox>
+#include <QFileDialog>
+#include <QTextStream>
 #include "e32.h"
 
 QT_BEGIN_NAMESPACE
@@ -28,6 +30,8 @@ private slots:
     void on_openPortButton_clicked();
     void on_getParButton_clicked();
     void on_setParButton_clicked();
+    void on_loadPresetButton_clicked();
+    void on_savePresetButton_clicked();
 
 private:
     Ui::MainWindow *ui;
@@ -35,10 +39,14 @@ private:
     e32 *modem;
 
     QByteArray rxData;
+    uint16_t freqMHzBase, freqMHz;
     bool modelGot = false;
+    bool paramSet = false;
 
     void requestModel();
     void requestParam();
+    void parseParam(char* params);
+    void collectParam(char* params);
     void editEnable();
     void editDisable();
 };

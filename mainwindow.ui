@@ -22,7 +22,7 @@
      <rect>
       <x>20</x>
       <y>20</y>
-      <width>391</width>
+      <width>381</width>
       <height>91</height>
      </rect>
     </property>
@@ -33,7 +33,7 @@
       <x>430</x>
       <y>20</y>
       <width>91</width>
-      <height>26</height>
+      <height>31</height>
      </rect>
     </property>
     <property name="text">
@@ -46,7 +46,7 @@
       <x>530</x>
       <y>20</y>
       <width>91</width>
-      <height>26</height>
+      <height>31</height>
      </rect>
     </property>
     <property name="text">
@@ -62,7 +62,7 @@
       <x>430</x>
       <y>80</y>
       <width>91</width>
-      <height>26</height>
+      <height>31</height>
      </rect>
     </property>
     <property name="text">
@@ -78,7 +78,7 @@
       <x>530</x>
       <y>80</y>
       <width>91</width>
-      <height>26</height>
+      <height>31</height>
      </rect>
     </property>
     <property name="text">
@@ -629,6 +629,38 @@
       <width>91</width>
       <height>21</height>
      </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="loadPresetButton">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>230</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Load Preset</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="savePresetButton">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>230</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Save Preset</string>
     </property>
    </widget>
   </widget>
